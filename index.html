@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/zepto.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/mobile.js"></script>
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+</div>
+<div class="headline">
+   <div class="thead">
+       <div class="left-content">
+           <h1>社区头条</h1>
+       </div>
+       <div class="right-content">头条新闻,头条新闻,头条新闻,头条新闻,头条新闻,头条新闻,头条新闻,头条新闻,</div>
+   </div>
+    <div class="headblock">
+        <div class="active">社区动态 <span class="line"></span></div>
+        <div>社区话题 <span ></span></div>
+    </div>
+</div>
+<div class="viewbox">
+    <div class="newsbox">
+        <section class="newscon spacing">
+            <div class="identity">
+                <div class="logo"><span class="glyphicon glyphicon-tree-deciduous"></span></div>
+                <div class="name">小明</div>
+                <div class="back">置顶</div>
+            </div>
+            <div class="time">一天前<span>来自<a>空气污染话题</a></span></div>
+            <div class="news">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</div>
+            <div class="picture">
+                <img src="img/1.jpg" alt=""><img src="img/1.jpg" alt=""><img src="img/1.jpg" alt="">
+            </div>
+            <div class="comment">
+                <span class="glyphicon glyphicon-thumbs-up"></span>
+                <span class="glyphicon glyphicon-heart-empty"></span>
+                <span class="glyphicon glyphicon-comment"></span>
+            </div>
+        </section>
+        <section class="newscon spacing">
+            <div class="identity">
+                <div class="logo"><span class="glyphicon glyphicon-tree-deciduous"></span></div>
+                <div class="name">小明</div>
+                <div class="back">置顶</div>
+            </div>
+            <div class="time">一天前<span>来自<a>空气污染话题</a></span></div>
+            <div class="news">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试</div>
+            <div class="picture">
+                <img src="img/1.jpg" alt=""><img src="img/1.jpg" alt=""><img src="img/1.jpg" alt="">
+            </div>
+            <div class="comment">
+                <span class="glyphicon glyphicon-thumbs-up"></span>
+                <span class="glyphicon glyphicon-heart-empty"></span>
+                <span class="glyphicon glyphicon-comment"></span>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay:3000,
+        speed:1500,
+        effect : 'flip',
+        scrollbar:'.swiper-scrollbar',
+        loop:true,
+        flip:{
+            slideShadows:true,
+            limitRotation:true,
+        }
+    })
+</script>
+</html>
